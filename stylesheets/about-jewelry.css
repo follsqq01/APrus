@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "CosmicSans";
-  src: url("fonts/just-cosmic.woff") format("woff2"),
-    url("fonts/just-cosmic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   font-family: "Instrument Sans", sans-serif;
   background-color: #e3e3e3;
@@ -41,7 +33,8 @@ body.fade-out {
   text-decoration: none;
   color: #000;
   z-index: 3;
-  font-family: "JustCosmic", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
   transition: transform 0.2s ease;
 }
 
@@ -120,6 +113,8 @@ header a {
 .title {
   font-size: 7vh;
   margin-bottom: 2vh;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
 }
 
 .rating {
