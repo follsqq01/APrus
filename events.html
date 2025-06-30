@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/event.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="subscribe-banner">
+      <div class="subscribe-title">СКИДКА 10% НА ПОКУПКУ</div>
+      <div class="subscribe-desc">
+        И будьте в курсе последних коллекций, поступлений и эксклюзивных
+        коллабораций.
+      </div>
+      <form id="subscribe-form" class="subscribe-form" novalidate>
+        <input
+          type="email"
+          required
+          placeholder="Адрес электронной почты"
+          class="subscribe-input"
+        />
+        <button type="submit" class="subscribe-btn">ПОДПИСАТЬСЯ</button>
+      </form>
+      <button id="subscribe-close" class="subscribe-close" aria-label="Закрыть">
+        &times;
+      </button>
+    </div>
+    <div class="page-content">
+      <div class="container">
+        <!-- левая часть -->
+        <div class="left-section" id="leftSection">
+          <video autoplay muted loop>
+            <source src="img/rave.mp4" type="video/mp4" />
+            Ваш браузер не поддерживает видео.
+          </video>
+          <div class="overlay">
+            <img class="logo" src="img/logo.svg" alt="Логотип" />
+            <p class="lefting">
+              25 / 26 лет<br />
+              Мы ждём вас<br />
+              на каждом нашем мероприятии!
+            </p>
+          </div>
+        </div>
+
+        <!-- Правая часть -->
+        <div class="right-container" id="rightContainer">
+          <nav>
+            <a href="events.html" class="nav-link link-transition active"
+              >СОБЫТИЯ</a
+            >
+            <a href="store.html" class="nav-link link-transition">МАГАЗИН</a>
+            <a href="gallery.html" class="nav-link link-transition">ГАЛЛЕРЕЯ</a>
+          </nav>
+
+          <div class="right-section" id="rightSection">
+            <!-- ивент 1 -->
+            <div class="event">
+              <div class="image-container">
+                <a href="event-details2.html" class="more-link">
+                  <img src="img/fotofallery15.png" alt="Event 1" />
+                  <div class="image-overlay"></div>
+                  <span class="more-text">подробнее@!</span>
+                </a>
+              </div>
+              <div class="text-container">
+                <div class="text-left">
+                  <h2>Интимное фото-<br />-событие</h2>
+                </div>
+                <div class="text-right">
+                  <p>
+                    Приходите на нашу эксклюзивную приватную фотособытию, где
+                    роскошь встречается с оттенком бунтарства. Мероприятие
+                    проходит в изысканной студии с черными мраморными стенами и
+                    мерцающими золотыми акцентами — пространство излучает
+                    современную элегантность.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ивент 2 -->
+            <div class="event">
+              <div class="image-container">
+                <a href="event-details1.html" class="more-link">
+                  <img src="img/fotogallery14.png" alt="Event 2" />
+                  <div class="image-overlay"></div>
+                  <span class="more-text">подробнее@!</span>
+                </a>
+              </div>
+              <div class="text-container">
+                <div class="text-left">
+                  <h2>Показ наших моделей</h2>
+                </div>
+                <div class="text-right">
+                  <p>
+                    ПРЕДСТАВЛЯЕМ НОВУЮ КОЛЛЕКЦИЮ! Исследуйте смелые новые
+                    цепочки с культовыми подвесками в виде красного яблока,
+                    которые переосмысливают свободу. Узнайте, как эта коллекция
+                    помогает молодежи выражать свой уникальный стиль.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ивент 3 -->
+            <div class="event">
+              <div class="image-container">
+                <a href="event-details3.html" class="more-link">
+                  <img src="img/forevent1.png" alt="Event 3" />
+                  <div class="image-overlay"></div>
+                  <span class="more-text">подробнее@!</span>
+                </a>
+              </div>
+              <div class="text-container">
+                <div class="text-left">
+                  <h2>WITCH’S HAT & YOUNG KINK</h2>
+                </div>
+                <div class="text-right">
+                  <p>
+                    Погрузитесь в мир, где детское удивление встречается со
+                    взрослым бунтарством — YOUNG KINK X WITCH’S HAT создают
+                    серебряные подвески и талисманы для тех, кто прекрасен в
+                    своей странности. Ностальгично, смело, немного загадочно —
+                    это украшения для тех, кто никогда не переставал колдовать и
+                    выходить за рамки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="transition.js"></script>
+    <script src="event(and-more-event).js"></script>
+  </body>
+</html>
